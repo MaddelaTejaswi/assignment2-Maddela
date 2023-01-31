@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # assignment2-lastname
 # Tejaswi maddela 
 ###### my favourite sports team is indian cricket team
@@ -15,7 +14,7 @@ Cricket is **great** sport for all ages.Many people enjoy watching cricket becau
 
 Cricket is **great** sport for all ages.Many people enjoy watching cricket because they feel like they are there at the **stadium** cheering on their favourite team.
 
-****
+*****
 
 # CRICKET
 
@@ -29,4 +28,3 @@ Cricket is **great** sport for all ages.Many people enjoy watching cricket becau
 * John Adams
 + Thomas Jefferson
 
->>>>>>> 72058fe8e116f6d7f103978d1b692259423cd547
