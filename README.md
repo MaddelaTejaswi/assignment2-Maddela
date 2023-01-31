@@ -7,7 +7,7 @@ Cricket is **great** sport for all ages.Many people enjoy watching cricket becau
 1. Sachin Tendulkar
 1. Sunil Gavaskar
 1. MS Dhoni
-# Volley ball
+# american team
 - George Washington
 * John Adams
 + Thomas Jefferson
