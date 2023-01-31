@@ -13,3 +13,10 @@ I come from the beautiful place the city of pearls. I love reading book. I like 
 | Germany                         | for master's education              | 2 years              |
 | Turkey                          | fun and chicken                     | 2 months             |
 | Maldives                        | to experience beach                 | 2 weeks              |
+
+******
+
+# Quotes
+
+> There is no sunrise so beautiful that it is worth waking me up to see it. _Tejaswi_
+> People say money is not the key to happiness, but I have always figured if you have enough money, you can have a key made. _Tejaswi_
