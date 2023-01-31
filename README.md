@@ -8,7 +8,7 @@ Cricket is **great** sport for all ages.Many people enjoy watching cricket becau
 
 # CRICKET
 
-1.Sachin Tendulkar
-1.Sunil Gavaskar
-1.MS Dhoni
+1. Sachin Tendulkar
+1. Sunil Gavaskar
+1. MS Dhoni
 
