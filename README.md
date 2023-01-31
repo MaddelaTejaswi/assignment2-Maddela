@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+<<<<<<<
 # assignment2-Maddela
 # Tejaswi maddela 
 ###### my favourite sports team is indian cricket team
