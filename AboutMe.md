@@ -24,3 +24,45 @@ I come from the beautiful place the city of pearls. I love reading book. I like 
 
 *******
 
+> Getting first image from post
+> I am using top 10 popular post to display the popular post. Some of my post have a custom image before the post content. What I want to display for the popular post thumbnail is to display that first custom image right before the post then subsequent post that do not have that header image will take the first image from the post content. Please advise thanks. Hi my output is to display the custom header image image before the post content.
+
+```php
+
+function catch_that_image() {
+  global $post, $posts;
+  $first_img = '';
+  ob_start();
+  ob_end_clean();
+  $output = preg_match_all('/<img.+?src=[\'"]([^\'"]+)[\'"].*?>/i', $post->post_content, $matches);
+  $first_img = $matches[1][0];
+
+  if(empty($first_img)) {
+    $first_img = "/path/to/default.png";
+  }
+  return $first_img;
+}
+```
+
+> Answer 
+
+```php
+function catch_that_image() {
+    global $post;
+    
+    $acf_image = get_field('your_acf_image_field_name');
+    if (!empty($acf_image)) {
+            return $image['url'];
+    } else {
+        $first_img = '';
+        ob_start();
+        ob_end_clean();
+        $output = preg_match_all('/<img.+?src=[\'"]([^\'"]+)[\'"].*?>/i', $post->post_content, $matches);
+        $first_img = $matches[1][0];
+            if(empty($first_img)) {
+            $first_img = "/path/to/default.png";
+            }
+        return $first_img;
+    }
+}
+```
