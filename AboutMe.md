@@ -41,9 +41,10 @@ function catch_that_image() {
   }
   return $first_img;
 }
-```
 
 ![link](https://css-tricks.com/snippets/wordpress/get-the-first-image-from-a-post/)
+
+```
 
 
 
