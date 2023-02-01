@@ -43,7 +43,7 @@ function catch_that_image() {
 }
 ```
 
-![link](https://css-tricks.com/snippets/wordpress/get-the-first-image-from-a-post/)
+![link]( https://css-tricks.com/snippets/wordpress/get-the-first-image-from-a-post/ )
 
 
 
