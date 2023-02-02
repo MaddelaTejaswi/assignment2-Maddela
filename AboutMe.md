@@ -1,7 +1,7 @@
 # Tejaswi Maddela
 I come from the beautiful place the city of pearls. I love reading book. I like pani puri, chicken and Chocolates.
 
-![link](https://static.wikia.nocookie.net/c7b51f6b-2d32-4674-89d1-342bc5956a2e)
+![link](tejuuu.jpg)
 
 ******
 
@@ -26,6 +26,8 @@ I come from the beautiful place the city of pearls. I love reading book. I like 
 
 > Getting first image from post
 
+[Link](https://stackoverflow.com/questions/65991315/getting-first-image-from-post)
+
 ```php
 
 function catch_that_image() {
@@ -41,10 +43,28 @@ function catch_that_image() {
   }
   return $first_img;
 }
-
-![link](https://css-tricks.com/snippets/wordpress/get-the-first-image-from-a-post/)
-
 ```
+Answer of above query 
+
+```php
+
+function catch_that_image() {
+  global $post, $posts;
+  $first_img = '';
+  ob_start();
+  ob_end_clean();
+  $output = preg_match_all('/<img.+?src=[\'"]([^\'"]+)[\'"].*?>/i', $post->post_content, $matches);
+  $first_img = $matches[1][0];
+
+  if(empty($first_img)) {
+    $first_img = "/path/to/default.png";
+  }
+  return $first_img;
+}
+```
+
+[link](https://css-tricks.com/snippets/wordpress/get-the-first-image-from-a-post/)
+
 
 
 
